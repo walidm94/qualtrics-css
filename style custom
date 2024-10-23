@@ -1,0 +1,35 @@
+/* Import Google Fonts and Adobe Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@500&display=swap');
+@import url('https://use.typekit.net/bgz2faq.css'); /* Adobe Typekit URL for P22 Mackinac Pro */
+
+/* Question Text (P22 Mackinac Pro) */
+.Skin .QuestionText, .Skin .QuestionTextContainer {
+    font-family: 'p22-mackinac-pro', serif; /* P22 Mackinac Pro for question text */
+    font-weight: 700; /* Bold for emphasis */
+    color: #3D2FDA; /* Primary color for question text */
+    background-color: transparent; /* No background highlight */
+}
+
+/* Answer Text (Source Serif Pro) */
+.Skin .ChoiceText, .Skin .AnswerText, .Skin .BodyText, .Skin p {
+    font-family: 'Source Serif Pro', serif; /* Source Serif Pro for answer text */
+    font-weight: 500; /* Regular weight for answers */
+    font-size: 1em; /* Standard size */
+    color: #000000; /* Black for answer text */
+    background-color: transparent; /* No background highlight */
+}
+
+/* Heading Styles (if needed for headers) */
+.Skin h1, .Skin h2, .Skin h3, .Skin h4, .Skin h5, .Skin h6 {
+    font-family: 'p22-mackinac-pro', serif; /* P22 Mackinac Pro for headers */
+    font-weight: 700; /* Bold for headers */
+    color: #3D2FDA; /* Primary color for headers */
+    background-color: transparent; /* No background highlight */
+}
+
+.Skin h1 { font-size: 2.5em; }
+.Skin h2 { font-size: 2em; }
+.Skin h3 { font-size: 1.75em; }
+.Skin h4 { font-size: 1.5em; }
+.Skin h5 { font-size: 1.25em; }
+.Skin h6 { font-size: 1em; }
